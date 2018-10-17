@@ -5,4 +5,6 @@ class App < Sinatra::Base
     halt 200, '200'
   end
 
+  get '/index'
+
 end
