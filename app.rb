@@ -5,7 +5,7 @@ class App < Sinatra::Base
     halt 200, '200'
   end
 
-  get '/index' do
+  get "/index" do
     erb :index
   end
 
